@@ -29,7 +29,7 @@ const addTransactionIntoDOM = transaction => {
         ${transaction.name}
         <span>${operator} R$ ${amountWithoutOperator}</span>
         <button class="delete-btn" onClick="removeTransaction(${transaction.id})">
-        x
+        X
         </button>
     `
     transactionsUl.append(li)
