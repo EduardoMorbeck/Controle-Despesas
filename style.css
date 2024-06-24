@@ -168,10 +168,10 @@ body {
     opacity: 1;
   }
 
-  @media (max-width: 500px){
+  @media (max-width: 510px){
     .container {
       margin: 30px auto;
-      width: 250px;
+      width: 225px;
     }
 
     h1{
