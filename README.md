@@ -1,9 +1,9 @@
 <h1>WebApp para Controle Financeiro</h1>
 
-<p>Este repositório contém um WebApp desenvolvido em JavaScript para gerenciar transações financeiras. O aplicativo permite ao usuário adicionar, remover e visualizar transações, exibindo os valores totais de receitas, despesas e saldo atual. As transações são armazenadas no localStorage do navegador, permitindo que os dados persistam entre sessões.</p>
+<p>WebApp desenvolvido em JavaScript para gerenciar transações financeiras. O aplicativo permite ao usuário adicionar, remover e visualizar transações, exibindo os valores totais de receitas, despesas e saldo atual. As transações são armazenadas no localStorage do navegador, permitindo que os dados persistam entre sessões.</p>
 
 <h2>Funcionalidades</h2>
-Adicionar Transações: O usuário pode adicionar uma nova transação fornecendo um nome e um valor. Transações de valor positivo são consideradas receitas, enquanto valores negativos são despesas.
+<ul>Adicionar Transações: O usuário pode adicionar uma nova transação fornecendo um nome e um valor. Transações de valor positivo são consideradas receitas, enquanto valores negativos são despesas.</ul>
 Remover Transações: Cada transação listada possui um botão de exclusão que permite ao usuário remover a transação correspondente.
 Visualizar Saldo: O aplicativo exibe o saldo atual, total de receitas e despesas de todas as transações cadastradas.
 Persistência de Dados: As transações são armazenadas no localStorage do navegador, permitindo que os dados sejam mantidos mesmo após o fechamento e reabertura do aplicativo.
